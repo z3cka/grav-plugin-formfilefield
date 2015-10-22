@@ -45,7 +45,7 @@ class FormfilefieldPlugin extends Plugin
       // if needed, create dir in data dir for uploaded file
       // TODO: assumes tha there is a text field called 'name' that it can use for a dir name
       //   - make this dynamically find the first text field in the form.
-      //   - document that a text field is required on the form 
+      //   - document that a text field is required on the form
       //     or
       //     use the datestamp for the dir name
       if (!file_exists($_SERVER['DOCUMENT_ROOT'] .'/user/data/'. $this->grav['page']->header()->form['name'] .'/'. date('Ymd-His') .'-'. $_POST['name'])) {
