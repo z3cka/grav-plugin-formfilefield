@@ -1,0 +1,12 @@
+name: Formfilefield
+version: 0.0.1
+description: "Creates a file field for forms."
+icon: file
+author:
+  name: Casey Grzecka
+  email: c@sey.gr
+  url: http://grav.sey.gr
+homepage: https://github.com/z3cka/grav-plugin-formfilefield
+keywords: plugin, form, file, field, upload
+bugs: https://github.com/z3cka/grav-plugin-formfilefield/issues
+license: MIT
